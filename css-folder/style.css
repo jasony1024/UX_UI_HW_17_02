@@ -1,0 +1,287 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+h1{
+    font-family: fresno-inline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    margin-top: 50px;
+    margin-bottom:0;
+    line-height:.95;
+    color: white;
+    }
+
+p{
+    padding-right: 100px;
+    font-family: ubuntu, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height:1.5;
+    color: white;
+
+}
+
+ button {
+     width: 210px;
+     height:40px;
+     border-radius: 25px;
+     border: none;
+     font-family: ubuntu, sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     font-size: 13px;
+     color: white;
+ }
+
+
+
+ .green{
+    background-color: #55BD98;
+ }
+
+ .yellow{
+     background-color: #FDBC08;
+ }
+
+.header{
+    background-color: #B74125;
+    height: 125px;
+    width: 100%;
+}
+
+.header .left{
+    width: 49%;
+    height:125px;
+    float:left;
+}
+
+.header .left img{
+    padding-top: 25px;
+    padding-left: 40px;
+    width: 75px;
+    height: 75px;
+}
+
+.header .right{
+    width: 40%;
+    height: 75px;
+    padding: 25px;
+    padding-right: 40px;
+    float: right;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-areas: "home about contact image";
+    justify-content: end;
+}
+
+
+.header .right img{
+    width: 75px;
+    height: 75px;
+    padding-left: 30px;
+}
+
+.intro{
+    width:100%;
+    height: 700px;
+    background-color: #B74125;
+}
+
+.intro .left{
+    width:48%;
+    float:left;
+    padding-top: 125px;
+}
+
+.intro .right{
+    width:52%;
+    float:right;
+}
+
+.intro .right p{
+    padding-bottom: 15px;
+}
+
+.intro .left img{
+    width:525px;
+    padding-left: 25px;
+}
+
+.ux_design{
+    width: 100%;
+    background-color: #FDBC08;
+}
+
+.ux_design h1{
+    margin-top: 0;
+    margin-left:0;
+    padding: 0;
+    padding-top: 60px;
+    line-height: 1;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 25px;
+    width: 300px;
+    height: 350px;
+    background-color: rgb( 255, 255, 255, .7);
+    margin:25px;
+    margin-bottom:80px;
+}
+
+.card img{
+    padding-top:32px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom:10px;
+    width:250px;
+}
+
+.card p {
+    text-align: center;
+    padding-right:0;
+    color: black;   
+}
+
+.graphic_design{
+    width:100%;
+    background-color: #55BD98;
+}
+
+.graphic_design h1{
+    margin-top: 0;
+    margin-left:0;
+    padding: 0;
+    padding-top: 60px;
+    line-height: 1;
+    text-align: center;
+}
+
+.footer {
+    background-color: #B74125;
+    height: 125px;
+    width: 100%;
+}
+
+.footer .left {
+    width: 35%;
+    height:125px;
+    float:left;
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-areas: "home about contact";
+    justify-content: start;
+    padding-left:30px;
+}
+
+.footer .right{
+    width:49%;
+    height: 125;
+    float: right;
+    display: grid;
+    grid-template-columns: 240px 75px;
+    grid-template-areas: "button image";
+    justify-content: end;
+    align-content: center;
+    margin-right: 25px;
+}
+
+footer .right img{
+    width: 75px;
+    height: 75px;
+    padding-top: 25px;
+}
+
+
+
+.home{
+    grid-area: home;
+    padding-top:50px;
+    font-family: ubuntu, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height:1.5;
+    color: white;
+}
+
+.about{
+    grid-area: about;
+    padding-top:50px;
+    font-family: ubuntu, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height:1.5;
+    color: white;
+}
+
+.contact{
+    grid-area: contact;
+    padding-top:50px;
+    font-family: ubuntu, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height:1.5;
+    color: white;
+}
+
+.image{
+    grid-area: image;
+}
+
+.footer .button{
+    margin-top: 42.5px;
+    grid-area:button;
+}
